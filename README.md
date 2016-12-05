@@ -36,7 +36,7 @@ It's time to put your Dockerized proxy on the internet! Next, run `eb init` and
 answer the prompts to create a new application. Here is a sample output:
 
 ```
-~/code/elastic-beanstalk-docker-nginx-s3-proxy master*
+~/code/elastic-beanstalk-docker-nginx-s3-proxy
 ❯ eb init
 
 Select a default region
@@ -83,7 +83,7 @@ new environment can take a bit of time!
 
 Here is a sample output:
 ```
-~/code/elastic-beanstalk-docker-nginx-s3-proxy master 10s
+~/code/elastic-beanstalk-docker-nginx-s3-proxy
 ❯ eb create
 Enter Environment Name
 (default is my-nginx-proxy-dev):
