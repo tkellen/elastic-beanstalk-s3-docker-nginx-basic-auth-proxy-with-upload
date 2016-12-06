@@ -1,6 +1,6 @@
 FROM nginx
 RUN rm /etc/nginx/conf.d/default.conf
-COPY nginx.conf /etc/nginx/conf.d
-COPY .htpasswd /etc/nginx/conf.d
+ADD nginx.conf /etc/nginx/conf.d
+ADD .htpasswd /etc/nginx
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
