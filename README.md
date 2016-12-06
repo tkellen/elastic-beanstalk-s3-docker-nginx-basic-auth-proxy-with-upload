@@ -13,7 +13,7 @@ aws_access_key_id = AKIAIMZWLTOOSTF6JN4A
 aws_secret_access_key = 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
 ```
 
-Next, edit `proxy.conf` to reference the bucket you're trying to secure.
+Next, edit `nginx.conf` to reference the bucket you're trying to proxy.
 ```
 set $bucket 'my-bucket-name';
 ```
